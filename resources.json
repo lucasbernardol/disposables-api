@@ -1,0 +1,23 @@
+[
+  {
+    "fork": true,
+    "href": "https://gist.github.com/030053f26f5bb2c537f0616963cf7ffc.git",
+    "main": "temporary-email-address-domains",
+    "main_readable": "domains.txt",
+    "author": "eewee"
+  },
+  {
+    "fork": true,
+    "href": "https://gist.github.com/8710649.git",
+    "main": "disposable-email-provider-domains",
+    "main_readable": "domains.txt",
+    "author": "michenriksen"
+  },
+  {
+    "fork": false,
+    "href": "https://gist.github.com/4401361.git",
+    "main": "temporary-email-address-domains",
+    "main_readable": "domains.txt",
+    "author": "adamloving"
+  }
+]

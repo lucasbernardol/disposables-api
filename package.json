@@ -1,0 +1,17 @@
+{
+  "name": "mail-tmp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/server.js",
+    "clear:tmp": "./scripts/rm.sh",
+    "process": "node bin/gists-process.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "sqlite3": "^5.1.2"
+  }
+}
