@@ -5,3 +5,5 @@ gists.json
 
 tmp/*
 !tmp/.gitkeep
+
+.env

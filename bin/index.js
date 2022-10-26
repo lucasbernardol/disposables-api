@@ -1,4 +1,4 @@
-const { main } = require('../src/lib/process');
+const { main } = require('./lib/process');
 
 const resources = require('../resources.json');
 
