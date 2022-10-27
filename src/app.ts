@@ -1,11 +1,12 @@
-import express from 'express';
+import express from "express";
+import cors from "cors";
 
-import cors from 'cors';
-import morgan from 'morgan';
+import morgan from "morgan";
+import helmet from "helmet";
 
-import helmet from 'helmet';
+import { errors } from "celebrate";
 
-import { routes } from './routes';
+import { routes } from "./routes";
 
 const app = express();
 
@@ -16,7 +17,10 @@ app.use(helmet());
 
 app.use(cors());
 
-app.use(morgan('dev'));
+app.use(morgan("dev"));
 
 app.use(routes);
+
+app.use(errors()); /** Validation ERRORS with celebrate */
+
 export { app };
