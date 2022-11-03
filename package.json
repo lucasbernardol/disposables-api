@@ -9,6 +9,7 @@
     "dev": "ts-node-dev -r tsconfig-paths/register --transpile-only --respawn src/server.ts"
   },
   "dependencies": {
+    "bl": "^6.0.0",
     "celebrate": "^15.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -18,7 +19,8 @@
     "joi": "^17.6.4",
     "knex": "^2.3.0",
     "morgan": "^1.10.0",
-    "pg": "^8.8.0"
+    "pg": "^8.8.0",
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
